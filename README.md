@@ -1,15 +1,25 @@
 # Simple Python Port Scanner
 
-This is my first script written in Python. It's a basic port scanner that checks open TCP ports on a given host.
+This is my updated Python port scanner script. It scans specified IP addresses for open TCP ports using multithreading to speed up the process.
 
 🚧 **Note:**  
-This is a beginner-level project. It currently supports basic scanning but will be improved over time with features like:
+This version improves on the first by allowing multiple IPs to be scanned, supports user-defined port ranges, and validates IP addresses before scanning.
 
-- Multithreading
-- Banner grabbing
-- IP range scanning
-- Output reports
+### Features in this version:
+- Scan multiple IP addresses in one run  
+- Validate IP addresses before scanning  
+- Specify start and end ports for scanning  
+- Use multithreading for faster scanning  
+- Timeout settings for quicker responses  
 
 🎯 **Goal:**  
-Learn more about networking, socket programming, and Python scripting by building this tool step-by-step.
+Keep learning Python networking and improve the tool gradually.
 
+---
+
+## Future Plans 🔮
+
+- Save scan results to a file 📝  
+- Add banner grabbing to identify services 🔍  
+- Support scanning IP ranges or subnets 🌐  
+- Better output formatting for clearer results 📊  
